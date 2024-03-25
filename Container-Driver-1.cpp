@@ -1,3 +1,8 @@
+// In this assignment, I combined DMA and operator overloading to make a container
+// that behaves like a vector (in the mathematical sense) of arbitrary size.
+// I created a class called DoubleContainer that has a dynamically allocated array of double values called "content".
+// My DoubleContainer also has two int values that stores the maximum size of the container as well as the current number of doubles in the container.
+
 #include <iostream>
 #include <ostream>
 #include <cstring>
